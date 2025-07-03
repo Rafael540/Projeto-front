@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*Elementos*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+html,
+body {
+    background-color: #E8E8E8;
+    color: unset;
+}
+
+/*Header*/
+header {
+    background-color: #FFE500;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+nav {
+    color: #636363;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.line-bottom {
+    border-bottom: 1px solid #D9D9D9;
+}
+
+
+
+.btn-page-container {
+    width: 220px;
+    display: grid;
+    grid-gap: 14px;
+}
+
+.btn {
+    border-radius: 4px;
+    height: 42px;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3483FA;
+}
+
+.btn-blue {
+    background-color: #3483FA;
+    color: #fff;
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #3483FA;
+    border: 1px solid #3483FA;
+}
+
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.cart {
+    margin-bottom: 20px;
+    border: 1px solid #D9D9D9;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.cart-item-container {
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+    border-bottom: 1px solid #D9D9D9;
+
+}
+
