@@ -7,11 +7,13 @@
 
 .dsc-category-container {
     display: flex;
+    flex-wrap: wraps;
 }
 
 .dsc-category {
     padding: 0 20px;
     margin-right: 20px;
+    margin-bottom: 10px;
     border-radius: 4px;
     background-color: var(--dsc-color-bg-tertiary);
     height: 30px;
@@ -51,7 +53,7 @@
 }
 
 .dsc-product-details-bottom {
-    padding: 10px 20px 20px 20px;
+    padding: 10px 20px;
 }
 
 .dsc-product-details-bottom h3 {
