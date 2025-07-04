@@ -1,5 +1,10 @@
 @import url(styles.css);
 
+
+
+/*-----------------------------------*/
+/*cartegory styles*/
+
 .dsc-category-container {
     display: flex;
 }
@@ -19,6 +24,9 @@
     padding: 0 20px;
 }
 
+
+/*-----------------------------------*/
+/*Product styles*/
 
 .dsc-product-details-top {
     padding: 10px;

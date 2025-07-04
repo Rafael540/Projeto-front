@@ -18,9 +18,6 @@
 
 }
 
-
-/*Elementos*/
-
 * {
     box-sizing: border-box;
     padding: 0;
@@ -34,6 +31,26 @@ body {
     color: unset;
 }
 
+/*-----------------------------------------------------------*/
+/*Generic styles*/
+
+.dsc-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
+.dsc-mb20 {
+    margin-bottom: 20px;
+}
+
+
+.dsc-line-bottom {
+    border-bottom: 1px solid var(--dsc-color-card-border);
+}
+
+/*-----------------------------------------------------------------*/
 /*Header*/
 header {
     background-color: var(--dsc-color-bg-secondary);
@@ -47,6 +64,16 @@ a:hover {
     text-decoration: none;
 }
 
+nav a {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+nav h1 {
+    font-size: 24px;
+}
+
 nav {
     color: var(--dsc-color-font-primary);
     display: flex;
@@ -54,17 +81,20 @@ nav {
     align-items: center;
 }
 
-.dsc-container {
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
+
+/*----------------------------------------------------------------------*/
+/*card styles*/
+
+.dsc-card{
+    border: 1px solid var(-dsc-color-card-border);
+    border-radius: 4px ;
+    background-color: var(--dsc-color-card-bg);
 }
 
-.dsc-line-bottom {
-    border-bottom: 1px solid var(--dsc-color-card-border);
-}
 
 
+/*-----------------------------------*/
+/*button styles*/
 
 .dsc-btn-page-container {
     width: 220px;
@@ -95,9 +125,9 @@ nav {
 }
 
 
-.dsc-mb20 {
-    margin-bottom: 20px;
-}
+
+/*-----------------------------------*/
+/*cart styles*/
 
 .dsc-cart {
     margin-bottom: 20px;
