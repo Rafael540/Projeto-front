@@ -58,6 +58,13 @@ main {
 }
 
 
+.dsc-section-title{
+ text-align: center;
+ color: var(--dsc-color-font-primary);
+ font-size: 16px;
+}
+
+
 
 /*-----------------------------------------------------------------*/
 /*Header*/
@@ -317,4 +324,22 @@ nav {
     resize: none;
     height: 128px;
     padding-top: 10px;
+}
+
+
+/*----------------------------------------------------------*/
+/*Table*/
+.dsc-table{
+    width:100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.dsc-table thead{
+    background-color: var(--dsc-color-card-bg);
+}
+
+.dsc-table tbody{
+        background-color: var(--dsc-color-card-bg);
+
 }
