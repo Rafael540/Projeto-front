@@ -58,10 +58,10 @@ main {
 }
 
 
-.dsc-section-title{
- text-align: center;
- color: var(--dsc-color-font-primary);
- font-size: 16px;
+.dsc-section-title {
+    text-align: center;
+    color: var(--dsc-color-font-primary);
+    font-size: 16px;
 }
 
 
@@ -98,15 +98,21 @@ nav {
     align-items: center;
 }
 
-.dsc-logged-user{
-    display:flex;
+.dsc-logged-user {
+    display: flex;
     flex-direction: column;
     align-items: flex-end;
 }
 
-.dsc-logged-user p{
-    font-size:12px;
+.dsc-logged-user p {
+    font-size: 12px;
 }
+
+
+.dsc-txt-left {
+    text-align: left;
+}
+
 
 /*----------------------------------------------------------------------*/
 /*card styles*/
@@ -142,7 +148,7 @@ nav {
 .dsc-btn {
     border-radius: 4px;
     height: 42px;
-    width:100%;
+    width: 100%;
     font-size: 14px;
     font-weight: 700;
     display: flex;
@@ -154,7 +160,7 @@ nav {
 .dsc-btn-blue {
     background-color: var(--dsc-color-btn-primary);
     color: var(--dsc-color-card-bg);
-    border:none;
+    border: none;
 }
 
 .dsc-btn-white {
@@ -261,8 +267,8 @@ nav {
     text-align: center;
 }
 
-@media(min-width: 576px){
-    .dsc-form h2{
+@media(min-width: 576px) {
+    .dsc-form h2 {
         font-size: 24px;
     }
 }
@@ -296,31 +302,31 @@ nav {
 
 .dsc-input-erro {
     border: 1px solid var(--dsc-color-erro);
-    
+
 
 }
 
 .dsc-form-erro {
     color: var(--dsc-color-erro);
     font-size: 12px;
-    padding-left:4px;
+    padding-left: 4px;
 
 }
 
-.dsc-select:invalid{
+.dsc-select:invalid {
     color: var(--dsc-color-font-placeholder);
 
 }
 
-.dsc-select option[disabled]{
+.dsc-select option[disabled] {
     display: none;
 }
 
-.dsc-select option{
+.dsc-select option {
     color: var(--dsc-color-font-primary);
 }
 
-.dsc-textarea{
+.dsc-textarea {
     resize: none;
     height: 128px;
     padding-top: 10px;
@@ -329,17 +335,38 @@ nav {
 
 /*----------------------------------------------------------*/
 /*Table*/
-.dsc-table{
-    width:100%;
+.dsc-table {
+    width: 100%;
     border-spacing: 0;
     border-collapse: collapse;
 }
 
-.dsc-table thead{
+.dsc-table thead {
+    height: 55px;
+    font-size: 14px;
+    color: var(--dsc-color-font-primary);
     background-color: var(--dsc-color-card-bg);
 }
 
-.dsc-table tbody{
-        background-color: var(--dsc-color-card-bg);
 
+
+.dsc-table tbody {
+    text-align: center;
+    font-size: 12px;
+    color: var(--dsc-color-font-primary);
+    background-color: var(--dsc-color-card-bg);
+
+}
+
+.dsc-table tbody tr {
+
+    height: 70px;
+    border-top: 1px solid var(--dsc-color-card-border);
+}
+
+.dsc-product-listing-btn {
+    height: 20px;
+    width: auto;
+    cursor: pointer;
+    margin: 5px;
 }
